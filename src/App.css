@@ -1,0 +1,128 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: white;
+}
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+  align-items: center;
+}
+h1{
+  color:black;
+  background-color:  rgb(146, 185, 197);
+  padding:40px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  color: black;
+  height:100px;
+  background-color: rgb(80, 153, 176); 
+}
+
+.task-input input {
+  padding: 10px;
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  color: black;
+}
+
+.column {
+  flex: 1;
+  background: #cfeef3;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: move;
+  color: black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.task-card button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.add-task-container {
+  margin-bottom: 20px;
+}
+
+.add-task-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-task-btn:hover {
+  background-color: #0056b3;
+}
+
+.task-input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.add-task-btn {
+  padding: 10px;
+  background-color: #1ce2e9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-task-btn:hover {
+  background-color: #108b8f;
+}
+
+.columns {
+  display: flex;
+  gap: 10px;
+}
